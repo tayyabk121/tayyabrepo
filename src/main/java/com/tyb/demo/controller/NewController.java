@@ -18,6 +18,6 @@ public class NewController {
     }
     @GetMapping("/new")
     public ResponseEntity newMethod(){
-        return ResponseEntity.ok("this is a new method");
+        return ResponseEntity.ok("this is new method");
     }
 }
