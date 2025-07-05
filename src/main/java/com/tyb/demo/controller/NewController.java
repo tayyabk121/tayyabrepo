@@ -18,8 +18,8 @@ public class NewController {
         return ResponseEntity.ok("this is test method");
     }
 
-    @GetMapping("/demo")
-    public ResponseEntity demo(){
-        return ResponseEntity.ok("demo method");
+    @GetMapping("/simple")
+    public ResponseEntity simple(){
+        return ResponseEntity.ok("simple method");
     }
 }
