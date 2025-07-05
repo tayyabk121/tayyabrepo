@@ -8,12 +8,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NewController {
 
-//    @GetMapping
-//    public ResponseEntity greeting(){
-//        return ResponseEntity.ok("Hellooooo");
-//    }
+    @GetMapping("/hello")
+    public ResponseEntity greeting(){
+        return ResponseEntity.ok("Hello!");
+    }
     @GetMapping("/greet")
     public ResponseEntity greet(){
         return ResponseEntity.ok("its working");
+    }
+    @GetMapping("/new")
+    public ResponseEntity newMethod(){
+        return ResponseEntity.ok("this is new method");
+    }
+    @GetMapping("/test")
+    public ResponseEntity testMethod(){
+        return ResponseEntity.ok("this is test method");
     }
 }
