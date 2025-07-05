@@ -1,5 +1,6 @@
 # Use OpenJDK 24 slim image
-FROM eclipse-temurin:24-jdk
+FROM eclipse-temurin:24-jdk-slim
+
 
 # Set working directory
 WORKDIR /app
