@@ -17,6 +17,8 @@ public class NewController {
     public ResponseEntity testMethod(){
         return ResponseEntity.ok("this is test method");
     }
+
+    @GetMapping("/demo")
     public ResponseEntity demo(){
         return ResponseEntity.ok("demo method");
     }
