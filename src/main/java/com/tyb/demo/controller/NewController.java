@@ -12,14 +12,7 @@ public class NewController {
     public ResponseEntity greeting(){
         return ResponseEntity.ok("Hello!");
     }
-    @GetMapping("/greet")
-    public ResponseEntity greet(){
-        return ResponseEntity.ok("its working");
-    }
-    @GetMapping("/new")
-    public ResponseEntity newMethod(){
-        return ResponseEntity.ok("this is new method");
-    }
+
     @GetMapping("/testing")
     public ResponseEntity testMethod(){
         return ResponseEntity.ok("this is test method");
