@@ -17,4 +17,7 @@ public class NewController {
     public ResponseEntity testMethod(){
         return ResponseEntity.ok("this is test method");
     }
+    public ResponseEntity demo(){
+        return ResponseEntity.ok("demo method");
+    }
 }
